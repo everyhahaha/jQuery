@@ -1,0 +1,62 @@
+body {
+  margin: 24px;
+}
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: white;
+  background-color: tomato;
+  border: 2px solid tomato;
+  text-decoration: none;
+}
+.text-1,
+.text-2 {
+  display: none;
+}
+
+/* css로 구현 */
+/* .show:focus ~ .text {
+  display: block;
+}
+.show:focus {
+  color: tomato;
+  background-color: #fff;
+  border: 2px solid tomato;
+}
+.hide:focus ~ .text {
+  display:none;
+}
+.hide:focus {
+  color: tomato;
+  background-color: #fff;
+  border: 2px solid tomato;
+} */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+.menu {
+  margin-top: 80px;
+  width: 122px;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+.list-title {
+  margin: 0;
+  padding: 8px 0;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;;
+  list-style: none;
+  display: none;
+}
+.list-item {
+  padding: 8px 0;
+}
